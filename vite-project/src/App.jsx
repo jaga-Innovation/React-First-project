@@ -13,7 +13,7 @@ function App() {
   const userData = {
     name: "kevin",
     age: 30,
-    phoneNo: 76587665
+    phoneNo: 76587665,
   };
 
   return (
@@ -41,7 +41,7 @@ function App() {
 
       <h1>hello</h1>
 
-      <User name={userData.name} age={userData.age} />
+      <User name={userData.name} age={userData.age} MobileNo={phoneNo} />
     </>
   );
 }
