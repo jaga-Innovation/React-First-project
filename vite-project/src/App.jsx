@@ -41,7 +41,7 @@ function App() {
 
       <h1>hello</h1>
 
-      <User name={userData.name} age={userData.age} MobileNo={phoneNo} />
+      <User name={userData.name} age={userData.age} MobileNo={userData.phoneNo} />
     </>
   );
 }
