@@ -11,7 +11,7 @@ function App() {
 
   //object
   const userData = {
-    name: "jaddy",
+    name: "kevin",
     age: 30,
     phoneNo: 76587665
   };
