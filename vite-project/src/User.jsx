@@ -2,7 +2,7 @@
 // /* eslint-disable react/prop-types */
 // import React from 'react'
 
-const User = ({ name, age,  }) => {
+const User = ({ name, age, phoneNo}) => {
   return (
     <div>
       <h1>name = {name}</h1>
