@@ -5,7 +5,6 @@ import "./App.css";
 import User from "./User";
 // import User from "./User";
 
-
 function App() {
   const [count, setCount] = useState(0);
 
@@ -19,7 +18,7 @@ function App() {
   return (
     <>
       <div>
-        <a href="javascript:void(0)" >
+        <a href="javascript:void(0)">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
         <a href="javascript:void(0)">
@@ -41,7 +40,11 @@ function App() {
 
       <h1>hello</h1>
 
-      <User name={userData.name} age={userData.age} MobileNo={userData.phoneNo} />
+      <User
+        name={userData.name}
+        age={userData.age}
+        MobileNo={userData.phoneNo}
+      />
     </>
   );
 }
