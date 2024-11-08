@@ -13,7 +13,7 @@ function App() {
   const userData = {
     name: "kevin",
     age: 30,
-    phoneNo: 76587665
+    // phoneNo: 76587665
   };
 
   return (
